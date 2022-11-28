@@ -1,0 +1,74 @@
+[
+  {
+    "muscle_group": "Legs",
+    "exercises": [
+      { "exercise_name": "Deadlift", "source": "https://www.youtube.com/embed/1ZXobu7JvvE" },
+      { "exercise_name": "Barbell Squat", "source": "https://www.youtube.com/embed/ultWZbUMPL8"},
+      { "exercise_name": "Leg Press", "source": "https://www.youtube.com/embed/IZxyjW7MPJQ" },
+      { "exercise_name": "Barbell RDLs", "source": "https://www.youtube.com/embed/mZxxJEncsyw" },
+      { "exercise_name": "Bulgarian Split Squats", "source": "https://www.youtube.com/embed/7Aqeb8UHl4k" },
+      { "exercise_name": "Leg Extension", "source": "https://www.youtube.com/embed/7G0Qj6lGSWg" },
+      { "exercise_name": "Hamstring Curl", "source": "https://www.youtube.com/embed/vl5nUdE9mWM" }
+    ]
+  },
+  {
+    "muscle_group": "Back",
+    "exercises": [
+      { "exercise_name": "Lat Pull Downs", "source": "https://www.youtube.com/embed/CAwf7n6Luuc" },
+      { "exercise_name": "Cable Rows", "source": "https://www.youtube.com/embed/xQNrFHEMhI4" },
+      { "exercise_name": "Barbell Row", "source": "https://www.youtube.com/embed/FWJR5Ve8bnQ" },
+      { "exercise_name": "Straight Arm Pulldown", "source": "https://www.youtube.com/embed/r34PR1mxzmU" },
+      { "exercise_name": "Face Pulls", "source": "https://www.youtube.com/embed/V8dZ3pyiCBo" },
+      { "exercise_name": "Single Arm Dumbbell Rows", "source": "https://www.youtube.com/embed/roCP6wCXPqo" },
+      { "exercise_name": "(Assisted) Pull Ups", "source": "https://www.youtube.com/embed/eGo4IYlbE5g" }
+    ]
+  },
+  {
+    "muscle_group": "Arms",
+    "exercises": [
+      { "exercise_name": "Dumbbell Bicep Curls", "source": "https://www.youtube.com/embed/ykJmrZ5v0Oo" },
+      { "exercise_name": "Barbell Bicep Curls", "source": "https://www.youtube.com/embed/QZEqB6wUPxQ" },
+      { "exercise_name": "Cable Tricep Pushdown", "source": "https://www.youtube.com/embed/2-LAMcpzODU" },
+      { "exercise_name": "Skullcrushers", "source": "https://www.youtube.com/embed/d_KZxkY_0cM" },
+      { "exercise_name": "Dumbbell Tricep Extension", "source": "https://www.youtube.com/embed/nRiJVZDpdL0" },
+      { "exercise_name": "Cable Bicep Curls", "source": "https://www.youtube.com/embed/NFzTWp2qpiE" },
+      { "exercise_name": "(Assisted) Tricep Dips", "source": "https://www.youtube.com/embed/0326dy_-CzM" }
+    ]
+  },
+  {
+    "muscle_group": "Shoulders",
+    "exercises": [
+      { "exercise_name": "Barbell Overhead Press", "source": "https://www.youtube.com/embed/5yWaNOvgFCM" },
+      { "exercise_name": "Dumbbell Overhead Press", "source": "https://www.youtube.com/embed/M2rwvNhTOu0" },
+      { "exercise_name": "Lateral Raises", "source": "https://www.youtube.com/embed/3VcKaXpzqRo" },
+      { "exercise_name": "Front Raises", "source": "https://www.youtube.com/embed/-t7fuZ0KhDA" },
+      { "exercise_name": "Barbell Upright Row", "source": "https://www.youtube.com/embed/nIJGvsdNtFE" },
+      { "exercise_name": "Arnold Press", "source": "https://www.youtube.com/embed/3ml7BH7mNwQ" },
+      { "exercise_name": "Cable Rear Delt Fly", "source": "https://www.youtube.com/embed/JENKmsEZQO8" }
+    ]
+  },
+  {
+    "muscle_group": "Chest",
+    "exercises": [
+      { "exercise_name": "Bench Press", "source": "https://www.youtube.com/embed/gRVjAtPip0Y" },
+      { "exercise_name": "Incline Bench Press", "source": "https://www.youtube.com/embed/SrqOu55lrYU" },
+      { "exercise_name": "Decline Bench Press", "source": "https://www.youtube.com/embed/OR6WM5Z2Hqs" },
+      { "exercise_name": "Dumbbell Press", "source": "https://www.youtube.com/embed/QsYre__-aro" },
+      { "exercise_name": "Incline Dumbbell Press", "source": "https://www.youtube.com/embed/hChjZQhX1Ls" },
+      { "exercise_name": "Push Ups", "source": "https://www.youtube.com/embed/IODxDxX7oi4" },
+      { "exercise_name": "Cable Pec Fly", "source": "https://www.youtube.com/embed/Iwe6AmxVf7o" }
+    ]
+  },
+  {
+    "muscle_group": "Abs",
+    "exercises": [
+      { "exercise_name": "Sit Ups", "source": "https://www.youtube.com/embed/jDwoBqPH0jk" },
+      { "exercise_name": "Plank", "source": "https://www.youtube.com/embed/pvIjsG5Svck" },
+      { "exercise_name": "Reverse Crunch", "source": "https://www.youtube.com/embed/7rRWy7-Gokg" },
+      { "exercise_name": "Bicycle Crunch", "source": "https://www.youtube.com/embed/Iwyvozckjak" },
+      { "exercise_name": "Mountain Climbers", "source": "https://www.youtube.com/embed/nmwgirgXLYM" },
+      { "exercise_name": "Hanging Knee Raise", "source": "https://www.youtube.com/embed/KhPTiWP6lB4" },
+      { "exercise_name": "Russian Twist", "source": "https://www.youtube.com/embed/wkD8rjkodUI" }
+    ]
+  }
+]

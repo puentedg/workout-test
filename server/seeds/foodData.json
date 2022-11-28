@@ -1,0 +1,82 @@
+[
+  {
+    "cuisine_name": "Asian",
+    "foods": [
+      { "food_name": "Stirfry", "source": "whatever" },
+      { "food_name": "Shrimp Pad Thai", "source": "whatever" },
+      { "food_name": "Sesame Chicken", "source": "whatever" },
+      { "food_name": "Chicken Chow Mein", "source": "whatever" },
+      { "food_name": "Asian Salad", "source": "whatever" },
+      { "food_name": "Sweet and Sour Chicken", "source": "whatever" },
+      { "food_name": "Salmon", "source": "whatever" }
+    ]
+  },
+  {
+    "cuisine_name": "Mexican",
+    "foods": [
+      {
+        "food_name": "Burrito Zucchini",
+        "source": "https://www.youtube.com/embed/xLX7-symEvQ"
+      },
+      {
+        "food_name": "Turkey Taco Lettuce Wraps",
+        "source": "https://www.youtube.com/embed/xLX7-symEvQ"
+      },
+      {
+        "food_name": "Salsa Verde and Shrimp",
+        "source": "https://www.youtube.com/embed/xLX7-symEvQ"
+      },
+      {
+        "food_name": "Burrito Bowl",
+        "source": "https://www.youtube.com/embed/xLX7-symEvQ"
+      },
+      {
+        "food_name": "Chicken Fajitas",
+        "source": "https://www.youtube.com/embed/xLX7-symEvQ"
+      },
+      {
+        "food_name": "Taco Salad",
+        "source": "https://www.youtube.com/embed/xLX7-symEvQ"
+      },
+      {
+        "food_name": "Turkey Taco Lettuce Cups",
+        "source": "https://www.youtube.com/embed/xLX7-symEvQ"
+      }
+    ]
+  },
+  {
+    "cuisine_name": "Carribean",
+    "foods": [
+      { "food_name": "Jerk Chicken", "source": "whatever" },
+      { "food_name": "Oxtail", "source": "whatever" },
+      { "food_name": "Curry Fish", "source": "whatever" },
+      { "food_name": "Jerk Chicken Shrimp", "source": "whatever" },
+      { "food_name": "Jamaican Steamed Fish", "source": "whatever" },
+      { "food_name": "Jerk Salmon", "source": "whatever" }
+    ]
+  },
+  {
+    "cuisine_name": "Italian",
+    "foods": [
+      { "food_name": "Eggplant Parimigana", "source": "whatever" },
+      { "food_name": "Cheese Ravioli", "source": "whatever" },
+      { "food_name": "Minestrone Soup", "source": "whatever" },
+      { "food_name": "Chicken Parimigana", "source": "whatever" },
+      { "food_name": "Caprese Tomato Salad", "source": "whatever" },
+      { "food_name": "Lasanga rolls", "source": "whatever" },
+      { "food_name": "Chicken Cacciatore", "source": "whatever" }
+    ]
+  },
+  {
+    "cuisine_name": "European",
+    "foods": [
+      { "food_name": "Cabbage Rolls", "source": "whatever" },
+      { "food_name": "Porkmeatballs and Mashpotato", "source": "whatever" },
+      { "food_name": "Lamb Steak", "source": "whatever" },
+      { "food_name": "Shnitzel", "source": "whatever" },
+      { "food_name": "Souvlaki", "source": "whatever" },
+      { "food_name": "Mushroom Stroganoff", "source": "whatever" },
+      { "food_name": "Moussaka", "source": "whatever" }
+    ]
+  }
+]

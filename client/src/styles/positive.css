@@ -1,0 +1,57 @@
+.positive__container {
+  display:grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2.5rem;
+}
+
+.form__container {
+  display:grid;
+  display:block;
+  gap: 2.5rem;
+}
+
+.form {
+  background: var(--color-bg-v);
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border:1px solid transparent;
+  transition: var(--transition);
+}
+.form-input {
+  width: 100%;
+  border-radius: 1.5rem;
+  height: 3rem;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  display: flex;
+  margin-top: 1.5rem;
+}
+.form textarea {
+  width: 100%;
+  border-radius: 1.5rem;
+  height: 8rem;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.btn__submit {
+  left:50%;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+ .positive__container {
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .positive__container {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+  }
+}
+

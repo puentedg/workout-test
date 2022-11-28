@@ -1,0 +1,17 @@
+[
+  {
+    "username": "John",
+    "email": "john@workoutbuddy.com",
+    "password": "password01"
+  },
+  {
+    "username": "Alex",
+    "email": "alex@workoutbuddy.com",
+    "password": "password02"
+  },
+  {
+    "username": "Emma",
+    "email": "emma@workoutbuddy.com",
+    "password": "password03"
+  }
+]

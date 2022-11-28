@@ -1,0 +1,26 @@
+li.exercise-list {
+  font-family: Impact, fantasy;
+  list-style: none;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+ul.exercise-box {
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+select.muscle-select {
+  background-color: white;
+  margin-left: 5px;
+}
+
+h1#workout-header {
+  text-align: center;
+  font-family: Impact, fantasy;
+}
