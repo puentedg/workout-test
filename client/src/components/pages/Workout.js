@@ -42,11 +42,11 @@ export default function Workout() {
       setExercises(exerciseList.exercises);
     }
   };
-  console.log(data);
+ 
   return (
     <div>
       {loading ? (
-        <div>loading</div>
+        <div>loading...</div>
       ) : (
         <div>
           <h1 id="workout-header">WORKOUTS</h1>
@@ -76,12 +76,15 @@ export default function Workout() {
               return (
                 <div key={exercise.exercise_name}>
                   <li className="exercise-list">{exercise.exercise_name}</li>
+                  <p className="tutorial-text">TIPS/HOW TO:</p>
+                  <p className='description'>{exercise.description}</p>
+                  <p className="tutorial-text">See video below for full tutorial.</p>
                   <iframe
                     width="560"
                     height="315"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowFullScreen
                     src={exercise.source}
                     title={exercise.exercise_name}
                   ></iframe>

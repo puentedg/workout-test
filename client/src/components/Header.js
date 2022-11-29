@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import '../styles/header.css'
 import Auth from '../utils/auth';
 
 const Header = () => {
@@ -9,23 +9,24 @@ const Header = () => {
     Auth.logout();
   };
   return (
-    <header className="bg-info text-dark mb-4 py-3 display-flex align-center">
-      <div className="container flex-column justify-space-between-lg justify-center align-center text-center">
+    <header className="header__container">
+      
+      <div>
           {Auth.loggedIn() ? (
-            <button className="btn btn-lg btn-light m-2" onClick={logout}>
+            <button className="btn btn__logout" onClick={logout}>
               Logout
             </button>
           ) : (
             <>
-              <Link className="btn btn-lg btn-primary m-2" to="/login">
+              <Link className="btn btn__login" to="/login">
                 Login
               </Link>
-              <Link className="btn btn-lg btn-light m-2" to="/signup">
+              <Link className="btn btn__signup" to="/signup">
                 Signup
               </Link>
             </>
           )}
-        </div>
+      </div>
     </header>
   );
 };

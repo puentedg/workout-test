@@ -1,4 +1,4 @@
-// import './App.css';
+import './styles/Nav.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {
@@ -8,7 +8,6 @@ import {
   createHttpLink,
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
-
 import Home from './components/pages/Home';
 import Login from './components/pages/Login';
 import Signup from './components/pages/Signup';

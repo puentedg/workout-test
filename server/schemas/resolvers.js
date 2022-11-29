@@ -1,4 +1,5 @@
-const { Food, index, User, Workout, Positive } = require('../models');
+const { Food, index, User, Workout, Positive} = require('../models');
+const { signToken } = require('../utils/auth');
 
 const resolvers = {
   Query: {
@@ -23,19 +24,29 @@ const resolvers = {
       // return await Workout.find();
     },
     users: async () => {
-      return User.find().populate('positives');
+      // return User.find().populate('positives');
+      const data = await User.find();
+      return data;
     },
     user: async (parent, { username }) => {
       return User.findOne({ username }).populate('positives');
     },
-  },
+    positives: async (parent, { username }) => {
+      const params = username ? { username } : {};
+      return Positive.find(params).sort({ createdAt: -1 });
+    },
+    positive: async (parent, { positiveId }) => {
+      return Positive.findOne({ _id: positiveId });
+    },
+   },
+
   Mutation: {
     addUser: async (parent, { username, email, password }) => {
       const user = await User.create({ username, email, password });
       const token = signToken(user);
       return { token, user };
     },
-    
+
     login: async (parent, { email, password }) => {
       const user = await User.findOne({ email });
   
@@ -69,9 +80,8 @@ const resolvers = {
     removePositive: async (parent, { positiveId }) => {
       return Positive.findOneAndDelete({ _id: positiveId });
     },
-    },
   }
-
+}
 
 
 module.exports = resolvers;

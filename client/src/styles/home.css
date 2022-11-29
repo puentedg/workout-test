@@ -1,0 +1,42 @@
+body, html{
+  height: 100%;
+  background-image: url('../images/wb-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:  #0a0a0b;
+}
+.positive__list {
+    font-family: Impact, fantasy;
+    list-style: none;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  h3 {
+    text-align: center;
+    color: #fca311;
+    font-family: Impact, fantasy;
+    margin-top: 1rem;
+    font-size: 25px;
+  }
+  
+  h1#workout-header {
+    text-align: center;
+    font-family: Impact, fantasy;
+    margin-top: 5rem;
+    font-size: 3rem;
+  }
+  
+  label.muscle-label {
+    font-family: Impact, fantasy;
+  }
+  
+  p#motivation-note {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  

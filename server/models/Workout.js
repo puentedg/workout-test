@@ -5,14 +5,12 @@ const exerciseSchema = new Schema({
     {
       exercise_name: String,
       source: String,
+      description: String,
     },
   ],
   muscle_group: {
     type: String,
     required: true,
-  },
-  description: {
-    type: String,
   },
   time: {
     type: Date,

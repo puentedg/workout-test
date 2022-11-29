@@ -2,73 +2,241 @@
   {
     "muscle_group": "Legs",
     "exercises": [
-      { "exercise_name": "Deadlift", "source": "https://www.youtube.com/embed/1ZXobu7JvvE" },
-      { "exercise_name": "Barbell Squat", "source": "https://www.youtube.com/embed/ultWZbUMPL8"},
-      { "exercise_name": "Leg Press", "source": "https://www.youtube.com/embed/IZxyjW7MPJQ" },
-      { "exercise_name": "Barbell RDLs", "source": "https://www.youtube.com/embed/mZxxJEncsyw" },
-      { "exercise_name": "Bulgarian Split Squats", "source": "https://www.youtube.com/embed/7Aqeb8UHl4k" },
-      { "exercise_name": "Leg Extension", "source": "https://www.youtube.com/embed/7G0Qj6lGSWg" },
-      { "exercise_name": "Hamstring Curl", "source": "https://www.youtube.com/embed/vl5nUdE9mWM" }
+      {
+        "exercise_name": "Deadlift",
+        "source": "https://www.youtube.com/embed/1ZXobu7JvvE",
+        "description":"Stand with your feet shoulder width apart, with a barbell positioned in front of you. Hinge at your hips and lower down with a slight bend in your knees, until you are far enough to grab the bar. Keep your spine neutral by looking forward, not up. While grasping the bar, keep your shoulders back, then squeeze your glutes and your core as you stand up straight, tuck in your pelvis and lift the barbell. Pause for a moment at the top, then slowly lower to the ground. Repeat."
+      },
+      {
+        "exercise_name": "Barbell Squat",
+        "source": "https://www.youtube.com/embed/ultWZbUMPL8",
+        "description":"If you are a beginner, practice the movement by performing a bodyweight squat. Keep your core tight and place your feet shoulder-width apart with your toes pointing outward slightly. Slowly lower your body until your quads are parallel to the floor, keeping your chest up and back straight. When you are comfortable enough, continue with the barbell squat."
+      },
+      {
+        "exercise_name": "Leg Press",
+        "source": "https://www.youtube.com/embed/IZxyjW7MPJQ",
+        "description":"Once comfortably sat on the leg press, brace your core and push the platform away with your heels and forefoot. Extend your legs and keep your head and back flat against the seat pad. Pause at the top, but do not lock out your knees. Return the footplate to the initial position by gradually bending the knees. Repeat."
+      },
+      {
+        "exercise_name": "Barbell RDLs",
+        "source": "https://www.youtube.com/embed/mZxxJEncsyw",
+        "description":"With your feet shoulder width apart, hinge at the hips and bend your knees so your back is parallel to the floor. Grab the bar with your palms facing towards you and your hands slightly wider than shoulder width apart. Lift the barbell to a standing position. With a slight bend in the knees, hinge at the waist with a straight back and slowly lower the barbell towards the ground. Pause briefly and reverse the motion as your return to the standing position. Repeat."
+      },
+      {
+        "exercise_name": "Bulgarian Split Squats",
+        "source": "https://www.youtube.com/embed/7Aqeb8UHl4k",
+        "description":"Using a knee-height bench or any apparatus, get into a forward lunge position with torso upright, core braced and hips square to your body, with your back foot elevated on the bench. Lower your front thigh until it is parllel to the ground, keeping your knee in line with your foot. Drive up through your front heel back to starting position, and repeat."
+      },
+      {
+        "exercise_name": "Leg Extension",
+        "source": "https://www.youtube.com/embed/7G0Qj6lGSWg",
+        "description":"While comfortably sat on the leg extension machine, place your hands on the hand bars, and lift the weight until your legs are almost straight. Do not lock your knees. With your back held against the backrest, lower the weight back to starting position. Repeat."
+      },
+      {
+        "exercise_name": "Hamstring Curl",
+        "source": "https://www.youtube.com/embed/vl5nUdE9mWM",
+        "description":"While comfortably lying down on the leg curl machine, place hands on handlebars with padded bar just above the ankles. Maintain a neutral head and neck position with chin tucked in. Your legs should be hip-width apart with knees and ankles in a straight line. Bend your legs until your heels are over your knees, pause at the top, then slowly straighten your knees again without fully extending them. Repeat."
+      }
     ]
   },
   {
     "muscle_group": "Back",
     "exercises": [
-      { "exercise_name": "Lat Pull Downs", "source": "https://www.youtube.com/embed/CAwf7n6Luuc" },
-      { "exercise_name": "Cable Rows", "source": "https://www.youtube.com/embed/xQNrFHEMhI4" },
-      { "exercise_name": "Barbell Row", "source": "https://www.youtube.com/embed/FWJR5Ve8bnQ" },
-      { "exercise_name": "Straight Arm Pulldown", "source": "https://www.youtube.com/embed/r34PR1mxzmU" },
-      { "exercise_name": "Face Pulls", "source": "https://www.youtube.com/embed/V8dZ3pyiCBo" },
-      { "exercise_name": "Single Arm Dumbbell Rows", "source": "https://www.youtube.com/embed/roCP6wCXPqo" },
-      { "exercise_name": "(Assisted) Pull Ups", "source": "https://www.youtube.com/embed/eGo4IYlbE5g" }
+      {
+        "exercise_name": "Lat Pull Downs",
+        "source": "https://www.youtube.com/embed/CAwf7n6Luuc",
+        "description":"Grasp the bar with a wide grip with an overhand grip. Pull the bar down until it is level with the chin, squeeze the shoulder blades together, then slowly return the bar to the starting position. Repeat."
+      },
+      {
+        "exercise_name": "Cable Rows",
+        "source": "https://www.youtube.com/embed/xQNrFHEMhI4",
+        "description":"Pull the handle and weight back toward the lower abdomen while keeping your back straight and squeeze your shoulder blades together as you row, keeping your chest out. Return the handle forward, ensuring the back remains straight throughout the movement. Repeat."
+      },
+      {
+        "exercise_name": "Barbell Row",
+        "source": "https://www.youtube.com/embed/FWJR5Ve8bnQ",
+        "description":"Stand holding a barbell with your palms facing up. Bend your knees slightly and lean forward by bending at the waist. Keeping your back straight, and elbows close to your body, row the barbell towards your chest, squeezing your back muscles. Slowly lower to the starting position. Repeat."
+      },
+      {
+        "exercise_name": "Straight Arm Pulldown",
+        "source": "https://www.youtube.com/embed/r34PR1mxzmU",
+        "description":"Attach a rope handle to the high pulley, grasp an end in each hand and face the cables. Draw your shoulder bladers back together and down, draw your ribs down, and brace yoru core. Bend your hips back until your torso is at a 30-45 degree angle. Step back from the cables until you feel some tension and your arms are fully extended overhead. Slowly drive your arms down to your sides with elbows locked out, so your hands end up in line with your hips, or just behind them. Reverse the motion to slowly extend your arms, then repeat."
+      },
+      {
+        "exercise_name": "Face Pulls",
+        "source": "https://www.youtube.com/embed/V8dZ3pyiCBo",
+        "description":"Reach up and grasp the handles with both hands with your palms facing in. Step back until your arms are fully extended, then engage your core and lean back slightly, positioning your body at a roughly 20-degree angle. Pull the rope toward you just enough to start lifting the weight from the stack, then engage your shoulders, rolling them back to create good posture—you don't want your shoulders hunching or rolling forward. This is your starting position. Pull the handles of the attachment straight toward your forehead. Keep your palms facing in as your elbows flare outward toward the sides, engaging the rear delts. Reverse the movement and slowly extend your arms without allowing your shoulders or chest to roll forward as you extend. You want to maintain good posture throughout the exercise."
+      },
+      {
+        "exercise_name": "Single Arm Dumbbell Rows",
+        "source": "https://www.youtube.com/embed/roCP6wCXPqo",
+        "description":"Holding a dumbbell in your right hand, bend over to place your left knee and left hand on a bench to support your body weight. Your hand should be placed directly under your shoulder and your knees should be positioned directly under your hips. Depress and retract your scapulae (pull your shoulders down and back) without arching your low back and maintain this shoulder position throughout the exercise. Extend your right arm (holding the dumbbell) towards the floor without allowing your torso to rotate or shoulder to move towards the floor. Slowly pull the dumbbell upwards, bending your elbow and pulling your upper arm backwards. Keep your arm close to the side of your body and continue pulling the dumbbell upwards until you are unable to lift any further without rotating your torso. Gently lower the dumbbell to your starting position while maintaining a flat back and retracted (pulled back) shoulder position."
+      },
+      {
+        "exercise_name": "(Assisted) Pull Ups",
+        "source": "https://www.youtube.com/embed/eGo4IYlbE5g",
+        "description":"If you are a beginner, consider using an assisted pull up machine or using a resistance band. Start by standing directly below a pull up bar, place your hands in an overhand grip with your hands slightly further than shoulder width apart. lift your feet up, engage your core, then pull your shoulders back and down. Bend your elbows and raise your upper body toward the bar until your chin is over the bar. Then, extend your elbows and lower your body back down into the starting position. Repeat."
+      }
     ]
   },
   {
     "muscle_group": "Arms",
     "exercises": [
-      { "exercise_name": "Dumbbell Bicep Curls", "source": "https://www.youtube.com/embed/ykJmrZ5v0Oo" },
-      { "exercise_name": "Barbell Bicep Curls", "source": "https://www.youtube.com/embed/QZEqB6wUPxQ" },
-      { "exercise_name": "Cable Tricep Pushdown", "source": "https://www.youtube.com/embed/2-LAMcpzODU" },
-      { "exercise_name": "Skullcrushers", "source": "https://www.youtube.com/embed/d_KZxkY_0cM" },
-      { "exercise_name": "Dumbbell Tricep Extension", "source": "https://www.youtube.com/embed/nRiJVZDpdL0" },
-      { "exercise_name": "Cable Bicep Curls", "source": "https://www.youtube.com/embed/NFzTWp2qpiE" },
-      { "exercise_name": "(Assisted) Tricep Dips", "source": "https://www.youtube.com/embed/0326dy_-CzM" }
+      {
+        "exercise_name": "Dumbbell Bicep Curls",
+        "source": "https://www.youtube.com/embed/ykJmrZ5v0Oo",
+        "description":"Hold a dumbbell in each hand, standing with your feet hip width apart. Keep your upper arms stable and shoulder relaxed, and bend at the elbow and lift the weights so that the dumbbells approach your shoulders. Your elbows should stay tucked in close to your body. Lower the weights to the starting position, and repeat."
+      },
+      {
+        "exercise_name": "Barbell Bicep Curls",
+        "source": "https://www.youtube.com/embed/QZEqB6wUPxQ",
+        "description":"Stand tall with your chest up and core braced, holding the barbell with your hands just outside of your hips, using an underhand grip. Keeping your chest up and your elbows tight to your sides, initiate the move by raising your hands slightly so you feel your biceps become engaged. While maintaining tension on your biceps, curl the bar up to shoulder height, then give your biceps a one-second squeeze. Start to lower the bar slowly, keeping your biceps tensed. Once the bar is back in the start position, straighten your arms fully to tense your triceps to ensure that your biceps are worked through the fullest possible range of motion. Repeat."
+      },
+      {
+        "exercise_name": "Cable Tricep Pushdown",
+        "source": "https://www.youtube.com/embed/2-LAMcpzODU",
+        "description":"Start by bracing your abdominals. Tuck your elbows in at your sides and position your feet slightly apart. Inhale. Push down until your elbows are fully extended but not yet in the straight, locked position. Keep your elbows close to your body and bend your knees slightly on the pushdown. Resist bending forward. Try to keep your back as straight as possible as you push down. As you exhale, return to the starting point using a controlled movement."
+      },
+      {
+        "exercise_name": "Skullcrushers",
+        "source": "https://www.youtube.com/embed/d_KZxkY_0cM",
+        "description":"Flex your elbows and lower the weight toward the top of your head. Your upper arms should remain relatively perpendicular to your body. Continue lowering the weight behind the head. The bottom of the dumbbell head should be about in line with the bench's top, or even a little higher if this feels unwieldy. Reverse the movement until the weight is above the chest in the original starting position. Keep from locking the elbow to maintain tension in your triceps muscle. Repeat."
+      },
+      {
+        "exercise_name": "Dumbbell Tricep Extension",
+        "source": "https://www.youtube.com/embed/nRiJVZDpdL0",
+        "description":"Start standing with your feet shoulder width apart and dumbbells held in front of you. Raise the dumbbells above your head until your arms are stretched out straight. Slowly lower the weights back behind your head, being careful not to flare your elbows out too much. Once your forearms move beyond parallel to the floor bring the weight back up to the starting position. Your upper arms should remain in place throughout the movement."
+      },
+      {
+        "exercise_name": "Cable Bicep Curls",
+        "source": "https://www.youtube.com/embed/NFzTWp2qpiE",
+        "description":"Stand with your knees slightly bent, and feet planted firmly on the floor. Brace your abdominal muscles, straighten your back, and keep your head steady while looking forward. Curl the cable weight upward toward the chest while breathing out. Only the forearms move, rising from the elbow. Hold at the top of the contraction for one second. Lower the forearms to the starting position on an inhale. Stop before the weights return to the stack, keeping the cable under tension."
+      },
+      {
+        "exercise_name": "(Assisted) Tricep Dips",
+        "source": "https://www.youtube.com/embed/0326dy_-CzM",
+        "description":"If you are a beginner, consider using an assisted tricep dip machine. Press into your palms to lift your body and slide forward just far enough that your behind clears the edge of the chair. Lower yourself until your elbows are bent between 45 and 90 degrees. Control the movement throughout the range of motion. Push yourself back up slowly until your arms are almost straight, and repeat."
+      }
     ]
   },
   {
     "muscle_group": "Shoulders",
     "exercises": [
-      { "exercise_name": "Barbell Overhead Press", "source": "https://www.youtube.com/embed/5yWaNOvgFCM" },
-      { "exercise_name": "Dumbbell Overhead Press", "source": "https://www.youtube.com/embed/M2rwvNhTOu0" },
-      { "exercise_name": "Lateral Raises", "source": "https://www.youtube.com/embed/3VcKaXpzqRo" },
-      { "exercise_name": "Front Raises", "source": "https://www.youtube.com/embed/-t7fuZ0KhDA" },
-      { "exercise_name": "Barbell Upright Row", "source": "https://www.youtube.com/embed/nIJGvsdNtFE" },
-      { "exercise_name": "Arnold Press", "source": "https://www.youtube.com/embed/3ml7BH7mNwQ" },
-      { "exercise_name": "Cable Rear Delt Fly", "source": "https://www.youtube.com/embed/JENKmsEZQO8" }
+      {
+        "exercise_name": "Barbell Overhead Press",
+        "source": "https://www.youtube.com/embed/5yWaNOvgFCM",
+        "description":"Grab a weight you are comfortable with. Stand with your body upright and core muscles braced, looking striaght ahead. Hold the bar on your upper chest, gripping it with hands just wider than shoulder-width apart. Press the bar directly overhead. Do not tilt your hips forward during the move."
+      },
+      {
+        "exercise_name": "Dumbbell Overhead Press",
+        "source": "https://www.youtube.com/embed/M2rwvNhTOu0",
+        "description":"Stand upright and keep the back straight. Hold a dumbbell in each hand, at the shoulders, with an overhand grip. Thumbs are on the inside and knuckles face up."
+      },
+      {
+        "exercise_name": "Lateral Raises",
+        "source": "https://www.youtube.com/embed/3VcKaXpzqRo",
+        "description":"Use a weight that you allows you to maintain good technique. Grab two dumbbells and stand with your feet hip-width apart with a slight bend in your knees. The head and neck should be in a neutral position, with your shoulders slightly ahead of your hips and chin tucked in. Hold the set of dumbbells by your sides with your palms facing your legs. With a slight bend in your arms, lift your arms slowly away from your body, allowing the shoulder blades to move naturally with the shoulder joint. Raise your arms until your elbows are at shoulder height or just below your shoulders. After a brief pause at the top, lower your arms down in the same plane, then repeat."
+      },
+      {
+        "exercise_name": "Front Raises",
+        "source": "https://www.youtube.com/embed/-t7fuZ0KhDA",
+        "description":"Stand with your feet about shoulder-width apart. Let your arms hang in front of you with the dumbbells in front of the thighs (palms facing the thighs). Your back should be straight, with your feet are planted flat on the floor, and your abdominal muscles engaged. Lift the weights upward with extended arms, palms facing down, with a slight bend in the elbows to reduce the stress on the joints. Pause briefly when your arms are horizontal to the floor, slowly lower the dumbbells to the starting position and repeat."
+      },
+      {
+        "exercise_name": "Barbell Upright Row",
+        "source": "https://www.youtube.com/embed/nIJGvsdNtFE",
+        "description":"Grasp the barbell with an overhand grip (palms facing down) and hands slightly closer than shoulder width apart. Pick the bar up, bending at the knees and keeping the back straight with eyes facing forward. Lift the bar striaght up keeping it as close to your body as possible up to around the chest area, pause, then lower. Repeat."
+      },
+      {
+        "exercise_name": "Arnold Press",
+        "source": "https://www.youtube.com/embed/3ml7BH7mNwQ",
+        "description":"Hold he dumbbells using a neutral grip (palms facing in), then position the end of the dumbbells on your knees and sit down on the bench. Kick your knees up to get the dumbbells into place and rotate your palms so they are facing you. Press the dumbbells overhead by extending the elbows and contracting the deltoits. As you press, rotate the dumbbells until your palms are facing forward. Slowly lower the dumbbells into the initial position, then repeat."
+      },
+      {
+        "exercise_name": "Cable Rear Delt Fly",
+        "source": "https://www.youtube.com/embed/JENKmsEZQO8",
+        "description":"Set the pulleys to be at a height slightly above your head. Stand with your feet shoulder width apart. While gripping the handles with your arms crossed (left hand gripping the right cable, right hand gripping the left), contract your rear delts to bring your arms backward until you feel a pinch in your shoulder blades. Keep your cored engaged throughout the movement. Bring the arms slowly back to the starting position with a slight bend in your elbows. Repeat."
+      }
     ]
   },
   {
     "muscle_group": "Chest",
     "exercises": [
-      { "exercise_name": "Bench Press", "source": "https://www.youtube.com/embed/gRVjAtPip0Y" },
-      { "exercise_name": "Incline Bench Press", "source": "https://www.youtube.com/embed/SrqOu55lrYU" },
-      { "exercise_name": "Decline Bench Press", "source": "https://www.youtube.com/embed/OR6WM5Z2Hqs" },
-      { "exercise_name": "Dumbbell Press", "source": "https://www.youtube.com/embed/QsYre__-aro" },
-      { "exercise_name": "Incline Dumbbell Press", "source": "https://www.youtube.com/embed/hChjZQhX1Ls" },
-      { "exercise_name": "Push Ups", "source": "https://www.youtube.com/embed/IODxDxX7oi4" },
-      { "exercise_name": "Cable Pec Fly", "source": "https://www.youtube.com/embed/Iwe6AmxVf7o" }
+      {
+        "exercise_name": "Bench Press",
+        "source": "https://www.youtube.com/embed/gRVjAtPip0Y",
+        "description":"Draw your shoulder blades back behind you to keep from pressing with rounded shoulders. Grasp the barbell using an overhand grip, placing your thumbs on the outside of your closed fist. Your arms are slightly wider than shoulder-width apart and the angle of your upper arms is about 45 degrees to the body. Remove the barbell from the rack, locking your elbows. Inhale while lowering the bar to your chest, at the nipple line. Exhale as you press the bar above your chest, extending your arms. Lower the bar so it is just above your chest. Repeat."
+      },
+      {
+        "exercise_name": "Incline Bench Press",
+        "source": "https://www.youtube.com/embed/SrqOu55lrYU",
+        "description":"Set up your bench at an angle of around 30-45°. Lie back and place your hands on the bar, slightly wider than shoulder-width apart, with your palms facing up. Lift the bar out of the rack and press it up until your arms are extended and your hands are above your shoulders. Slowly lower the bar to your chest, then press it back up again."
+      },
+      {
+        "exercise_name": "Decline Bench Press",
+        "source": "https://www.youtube.com/embed/OR6WM5Z2Hqs",
+        "description":"Secure your feet at the end of the bench. Lie down with your eyes under the barbell. Grip the bar with your palms facing forward, arms slightly wider than shoulder-width apart. Straighten your arms to lift the barbell from the rack. Move it over your shoulders, locking your elbows. Gradually lower the bar down until it touches your chest. Pause for a brief second, then return the bar back to where it started. Repeat."
+      },
+      {
+        "exercise_name": "Dumbbell Press",
+        "source": "https://www.youtube.com/embed/QsYre__-aro",
+        "description":"Lie flat on your back, or on a bench, with your feet flat on the ground. With a dumbbell in each hand, extend your arms directly over your shoulders, palms facing toward your feet. Squeeze your shoulder blades together and slowly bend your elbows, lowering the weights out to the side, parallel with your shoulders, until your elbows form 90-degree angles. Slowly drive the dumbbells back up to start, squeezing your shoulder blades the entire time. Repeat."
+      },
+      {
+        "exercise_name": "Incline Dumbbell Press",
+        "source": "https://www.youtube.com/embed/hChjZQhX1Ls",
+        "description":"Hold the dumbbells by your chest with your palms facing forwards. Press them straight up until your arms are fully extended, pause, then lower under control."
+      },
+      {
+        "exercise_name": "Push Ups",
+        "source": "https://www.youtube.com/embed/IODxDxX7oi4",
+        "description":"Get on floor on all fours, then position your hands slightly wider than your shoulders. Extend your legs back so you are balanced on your hands and toes, feet hip width apart. Slowly bend your elbows and lower yourself to the floor, until your elbows are at a 90-degree angle. Push back up through your hands with your chest muscles contracted, returning to the start position. Repeat."
+      },
+      {
+        "exercise_name": "Cable Pec Fly",
+        "source": "https://www.youtube.com/embed/Iwe6AmxVf7o",
+        "description":"Set both pulleys directly at (or slightly above) shoulder height and select the desired weight. Grasp both handles with a neutral grip and take a step forward to split the stance. Press the handles to lockout while flexing the pecs and extending the elbows. Keep a slight bend in the elbows, move entirely at the shoulder joint, and slowly allow the arms to open while the pecs stretch. Return to the starting position by flexing your pecs and bringing the handles together at chest height. Slowly lower back to the starting position and repeat."
+      }
     ]
   },
   {
     "muscle_group": "Abs",
     "exercises": [
-      { "exercise_name": "Sit Ups", "source": "https://www.youtube.com/embed/jDwoBqPH0jk" },
-      { "exercise_name": "Plank", "source": "https://www.youtube.com/embed/pvIjsG5Svck" },
-      { "exercise_name": "Reverse Crunch", "source": "https://www.youtube.com/embed/7rRWy7-Gokg" },
-      { "exercise_name": "Bicycle Crunch", "source": "https://www.youtube.com/embed/Iwyvozckjak" },
-      { "exercise_name": "Mountain Climbers", "source": "https://www.youtube.com/embed/nmwgirgXLYM" },
-      { "exercise_name": "Hanging Knee Raise", "source": "https://www.youtube.com/embed/KhPTiWP6lB4" },
-      { "exercise_name": "Russian Twist", "source": "https://www.youtube.com/embed/wkD8rjkodUI" }
+      {
+        "exercise_name": "Sit Ups",
+        "source": "https://www.youtube.com/embed/jDwoBqPH0jk",
+        "description":"Lie down on your back, with your feet on the floor, knees bent. Place your hands on either side of your head in a comfortable position. Bend your hips and waist to raise your body off the ground. Lower your body back to the ground into the starting position. Repeat."
+      },
+      {
+        "exercise_name": "Plank",
+        "source": "https://www.youtube.com/embed/pvIjsG5Svck",
+        "description":"Start in a press-up position. Bend your elbows until your forearms are on the floor beneath your shoulders so your body is in a straight line from your feet to your head. Keep your abs tight and look at the space between your hands to ensure a neutral spine position. Hold the position for as long as you can."
+      },
+      {
+        "exercise_name": "Reverse Crunch",
+        "source": "https://www.youtube.com/embed/7rRWy7-Gokg",
+        "description":"Start lying down with your arms by your sides. Raise your legs so your thighs are perpendicular to the floor and your knees are bent at a 90° angle. Breathe out and contract your abs to bring your knees up towards your chest and raise your hips off the floor. Hold for a beat in this position, then slowly lower your legs back to the starting position."
+      },
+      {
+        "exercise_name": "Bicycle Crunch",
+        "source": "https://www.youtube.com/embed/Iwyvozckjak",
+        "description":"Start by lying on the ground, with your lower back pressed flat into the floor and your head and shoulders raised slightly above it. Place your hands lightly on the sides of your head. Lift one leg just off the ground and extend it out. Lift the other leg and bend your knee towards your chest. As you do so twist through your core so the opposite arm comes towards the raised knee. Lower your leg and arm at the same time while bringing up the opposite two limbs to mirror the movement. Keep on alternating sides and repeat."
+      },
+      {
+        "exercise_name": "Mountain Climbers",
+        "source": "https://www.youtube.com/embed/nmwgirgXLYM",
+        "description":"Get into a plank position, making sure to distribute your weight evenly between your hands and your toes. Pull your right knee into your chest as far as you can. Switch legs, pulling one knee out and bringing the other knee in. Keep your hips down and run your knees in and out as far and as fast as you can. Repeat."
+      },
+      {
+        "exercise_name": "Hanging Knee Raise",
+        "source": "https://www.youtube.com/embed/KhPTiWP6lB4",
+        "description":"Start by hanging on a pull-up bar. Keep your body straight and use an overhand grip. Engage your core as you raise knees toward chest. Stop when thighs are parallel to the floor. Lower your legs slowly, returning to the starting position."
+      },
+      {
+        "exercise_name": "Russian Twist",
+        "source": "https://www.youtube.com/embed/wkD8rjkodUI",
+        "description":"Root into your sit bones as you lift your feet from the floor, keeping your knees bent. Elongate and straighten your spine at a 45-degree angle from the floor, creating a V shape with your torso and thighs. Reach your arms straight out in front, interlacing your fingers or clasping your hands together. Use your abdominals to twist to the right, then back to center, and then to the left. Repeat."
+      }
     ]
   }
 ]

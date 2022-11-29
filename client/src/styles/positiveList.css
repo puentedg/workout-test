@@ -1,34 +1,42 @@
 .positive__container {
     display:grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 2.5rem;
+    box-sizing: border-box;
+    border-color: #e5e5e5;
   }
 
 .positive__item {
-    background: var(--color-bg-v);
-    padding: 1.3rem;
+    padding: 0.5rem;
     border-radius: 2rem;
     border:1px solid transparent;
-    transition: var(--transition);
+    
   }
   
   .positive__item:hover {
-    border-color: var(--color-pr-v);
+    border-color: white;
     background: transparent;
   }
   
   .positive__header {
     border-radius: 1.5rem;
     overflow: hidden;
+    margin-bottom: 1rem;
+    color:#368f8b
   }
-  
+  .positive__date {
+    color:#246a73;
+  }
   .positive__item h4 {
     margin: 1.2rem 0 2rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
   }
 
   .positive__text {
     text-align: center;
-    margin-bottom: 2rem;
-    color:var(--color-light);
+    margin-bottom: 1rem;
+    color:#e5e5e5;
     font-size: 1.3rem;
   }

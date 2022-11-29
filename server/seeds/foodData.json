@@ -2,81 +2,158 @@
   {
     "cuisine_name": "Asian",
     "foods": [
-      { "food_name": "Stirfry", "source": "whatever" },
-      { "food_name": "Shrimp Pad Thai", "source": "whatever" },
-      { "food_name": "Sesame Chicken", "source": "whatever" },
-      { "food_name": "Chicken Chow Mein", "source": "whatever" },
-      { "food_name": "Asian Salad", "source": "whatever" },
-      { "food_name": "Sweet and Sour Chicken", "source": "whatever" },
-      { "food_name": "Salmon", "source": "whatever" }
+      {
+        "food_name": "Stirfry",
+        "source": "https://www.youtube.com/embed/h6EaCv-lLQY"
+      },
+      {
+        "food_name": "Shrimp Pad Thai",
+        "source": "https://www.youtube.com/embed/Z5yKROFiNQs"
+      },
+      {
+        "food_name": "Sesame Chicken",
+        "source": "https://www.youtube.com/embed/C2CVlvSSFO4"
+      },
+      {
+        "food_name": "Chicken Chow Mein",
+        "source": "https://www.youtube.com/embed/bdZPx_4zXhg"
+      },
+      {
+        "food_name": "Asian Salad",
+        "source": "https://www.youtube.com/embed/DmJzirkIbZM"
+      },
+      {
+        "food_name": "Sweet and Sour Chicken",
+        "source": "https://www.youtube.com/embed/uyU1lqrh-Po"
+      }
     ]
   },
   {
     "cuisine_name": "Mexican",
     "foods": [
       {
-        "food_name": "Burrito Zucchini",
-        "source": "https://www.youtube.com/embed/xLX7-symEvQ"
+        "food_name": "Zucchini Taco Boat",
+        "source": "https://www.youtube.com/embed/Fwt7suWYuWM"
       },
       {
-        "food_name": "Turkey Taco Lettuce Wraps",
-        "source": "https://www.youtube.com/embed/xLX7-symEvQ"
-      },
-      {
-        "food_name": "Salsa Verde and Shrimp",
-        "source": "https://www.youtube.com/embed/xLX7-symEvQ"
-      },
-      {
-        "food_name": "Burrito Bowl",
-        "source": "https://www.youtube.com/embed/xLX7-symEvQ"
-      },
-      {
-        "food_name": "Chicken Fajitas",
-        "source": "https://www.youtube.com/embed/xLX7-symEvQ"
+        "food_name": "High Protien Breakfast Burrito",
+        "source": "https://www.youtube.com/embed/-ps9hXHoyRQ"
       },
       {
         "food_name": "Taco Salad",
         "source": "https://www.youtube.com/embed/xLX7-symEvQ"
       },
       {
+        "food_name": "Burrito Bowl",
+        "source": "https://www.youtube.com/embed/PNAm7z9gOzk"
+      },
+      {
+        "food_name": "Chicken Fajitas",
+        "source": "https://www.youtube.com/embed/dQqM7mHYXxY"
+      },
+      {
+        "food_name": "Tacos",
+        "source": "https://www.youtube.com/embed/O9PKRKlR0ck"
+      },
+      {
         "food_name": "Turkey Taco Lettuce Cups",
-        "source": "https://www.youtube.com/embed/xLX7-symEvQ"
+        "source": "https://www.youtube.com/embed/G55V94jyltg"
       }
     ]
   },
   {
     "cuisine_name": "Carribean",
     "foods": [
-      { "food_name": "Jerk Chicken", "source": "whatever" },
-      { "food_name": "Oxtail", "source": "whatever" },
-      { "food_name": "Curry Fish", "source": "whatever" },
-      { "food_name": "Jerk Chicken Shrimp", "source": "whatever" },
-      { "food_name": "Jamaican Steamed Fish", "source": "whatever" },
-      { "food_name": "Jerk Salmon", "source": "whatever" }
+      {
+        "food_name": "Jerk Chicken",
+        "source": "https://www.youtube.com/embed/k5h2THDwhKU"
+      },
+      {
+        "food_name": "Oxtail",
+        "source": "https://www.youtube.com/embed/0wWuwGAwRtw"
+      },
+      {
+        "food_name": "Curry Fish",
+        "source": "https://www.youtube.com/embed/CUMzHVzwwGA"
+      },
+      {
+        "food_name": "Jerk Chicken Shrimp",
+        "source": "https://www.youtube.com/embed/j0OB1mwxR7k"
+      },
+      {
+        "food_name": "Jamaican Steamed Fish",
+        "source": "https://www.youtube.com/embed/ZRdx88ye6cQ"
+      },
+      {
+        "food_name": "Jerk Salmon",
+        "source": "https://www.youtube.com/embed/crYeCt1qjH0"
+      }
     ]
   },
   {
     "cuisine_name": "Italian",
     "foods": [
-      { "food_name": "Eggplant Parimigana", "source": "whatever" },
-      { "food_name": "Cheese Ravioli", "source": "whatever" },
-      { "food_name": "Minestrone Soup", "source": "whatever" },
-      { "food_name": "Chicken Parimigana", "source": "whatever" },
-      { "food_name": "Caprese Tomato Salad", "source": "whatever" },
-      { "food_name": "Lasanga rolls", "source": "whatever" },
-      { "food_name": "Chicken Cacciatore", "source": "whatever" }
+      {
+        "food_name": "Chicken Parimigana",
+        "source": "https://www.youtube.com/embed/qAkGQDaN3Hc"
+      },
+      {
+        "food_name": "Spinach Ravioli",
+        "source": "https://www.youtube.com/embed/Suf4GiUV1ms"
+      },
+      {
+        "food_name": "Minestrone Soup",
+        "source": "https://www.youtube.com/embed/RZpzq-tHryc"
+      },
+      {
+        "food_name": "Caprese Tomato Salad",
+        "source": "https://www.youtube.com/embed/9WhwoiPvnq8"
+      },
+      {
+        "food_name": "Lasanga rolls",
+        "source": "https://www.youtube.com/embed/d2FJI7dIGA8"
+      },
+      {
+        "food_name": "Eggplant Parimigana",
+        "source": "https://www.youtube.com/embed/nujPtQzeL0Y"
+      },
+      {
+        "food_name": "Chicken Cacciatore",
+        "source": "https://www.youtube.com/embed/56Tznu7ndmY"
+      }
     ]
   },
   {
     "cuisine_name": "European",
     "foods": [
-      { "food_name": "Cabbage Rolls", "source": "whatever" },
-      { "food_name": "Porkmeatballs and Mashpotato", "source": "whatever" },
-      { "food_name": "Lamb Steak", "source": "whatever" },
-      { "food_name": "Shnitzel", "source": "whatever" },
-      { "food_name": "Souvlaki", "source": "whatever" },
-      { "food_name": "Mushroom Stroganoff", "source": "whatever" },
-      { "food_name": "Moussaka", "source": "whatever" }
+      {
+        "food_name": "Cabbage Rolls",
+        "source": "https://www.youtube.com/embed/5ckKeuH9j9A"
+      },
+      {
+        "food_name": "Meatballs",
+        "source": "https://www.youtube.com/embed/PTw6FL2s3Ug"
+      },
+      {
+        "food_name": "Lamb Steak",
+        "source": "https://www.youtube.com/embed/bUvgVJtl8Fg"
+      },
+      {
+        "food_name": "Shnitzel",
+        "source": "https://www.youtube.com/embed/0Dm3AL3x5uU"
+      },
+      {
+        "food_name": "Souvlaki",
+        "source": "https://www.youtube.com/embed/caKS0_Kk3Rk"
+      },
+      {
+        "food_name": "Mushroom Stroganoff",
+        "source": "https://www.youtube.com/embed/Ii2QJrwkjV0"
+      },
+      {
+        "food_name": "Moussaka",
+        "source": "https://www.youtube.com/embed/9KRUUpD-tr8"
+      }
     ]
   }
 ]

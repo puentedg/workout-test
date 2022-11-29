@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import "../styles/FoodPage.css"; //change path
+import "../../styles/WorkoutPage.css"; //change path
 import { useQuery } from '@apollo/client';
 
 import { QUERY_FOOD } from '../../utils/queries';
@@ -37,12 +37,13 @@ export default function Workout() {
   return (
     <div>
       {loading ? (
-        <div>loading</div>
+        <div>loading...</div>
       ) : (
         <div>
-          <h1>Healthy Foods</h1>
-          <label>Which cuisine would you like to eat?</label>
-          <select name="food" onChange={handleChange}>
+          <h1 id="workout-header">HEALTHY FOODS</h1>
+          <div className="select-box">
+          <label className="muscle-label">Which cuisine would you like to eat?</label>
+          <select className="muscle-select" name="food" onChange={handleChange}>
             {foodData.map((food) => {
               return (
                 <option key={food.cuisine_name} value={food.cuisine_name}>
@@ -51,11 +52,12 @@ export default function Workout() {
               );
             })}
           </select>
-          <ul>
+          </div>
+          <ul className="exercise-box">
             {foods.map((food) => {
               return (
                 <div key={food.food_name}>
-                  <li>{food.food_name}</li>
+                  <li className="exercise-list">{food.food_name}</li>
                   <iframe
                     width="560"
                     height="315"

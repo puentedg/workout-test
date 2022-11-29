@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/positiveList.css'
 
 const PositiveList = ({ positives, title }) => {
   if (!positives.length) {
@@ -11,15 +12,15 @@ const PositiveList = ({ positives, title }) => {
       {positives &&
         positives.map((positive) => (
           <div key={positive._id} className="positive__item">
-            <h4 className="positive__header">
-              {positive.positiveAuthor} <br />
-              <span style={{ fontSize: '1rem' }}>
-                posted on {positive.createdAt}
-              </span>
-            </h4>
             <div className="positive__text">
               <p>{positive.positiveText}</p>
             </div>
+            <h4 className="positive__header">
+              {positive.positiveAuthor} <br />
+              <span className="positive__date"style={{ fontSize: '1rem' }}>
+                posted on {positive.createdAt}
+              </span>
+            </h4>
           </div>
         ))}
     </div>

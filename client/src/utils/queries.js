@@ -6,10 +6,10 @@ export const QUERY_EXERCISES = gql`
       exercises {
         exercise_name
         source
+        description
       }
       muscle_group
       time
-      description
     }
   }
 `;

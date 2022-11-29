@@ -1,0 +1,48 @@
+ul.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color:White;
+}
+
+li.nav-item {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  font-family: Impact, fantasy;
+  background-color: #1B2845;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 8px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+    background-color: #1B2845;
+    color:white;
+}
+
+

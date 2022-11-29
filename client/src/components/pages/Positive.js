@@ -16,7 +16,10 @@ const PositiveForm = () => {
   const [addPositive, { error }] = useMutation(ADD_POSITIVE, {
     update(cache, { data: { addPositive } }) {
       try {
-        const { positives } = cache.readQuery({ query: QUERY_POSITIVES });
+        const { positives } = cache.readQuery({ 
+          query: QUERY_POSITIVES,
+         
+         });
 
         cache.writeQuery({
           query: QUERY_POSITIVES,
@@ -48,7 +51,7 @@ const PositiveForm = () => {
   const handleChange = (event) => {
     const { name, value } = event.target;
 
-    if (name === 'positiveText' && value.length <= 280) {
+    if (name === 'positiveText' && value.length <= 150) {
       setPositiveText(value);
       setCharacterCount(value.length);
     }
@@ -72,12 +75,12 @@ const PositiveForm = () => {
             className="form"
             onSubmit={handleFormSubmit}
           >
-            <div className="col-12 col-lg-9">
+            <div className="text-container">
               <textarea
                 name="positiveText"
-                placeholder="Time to share you good energy..."
+                placeholder="Time to share your good energy..."
                 value={positiveText}
-                className="form-input"
+                className="text-input"
                 style={{ lineHeight: '1.5', resize: 'vertical' }}
                 onChange={handleChange}
               ></textarea>
@@ -85,7 +88,7 @@ const PositiveForm = () => {
 
             <div className="col-12 col-lg-3">
               <button className="btn__submit" type="submit">
-                Add you words of encouragement 
+                Add your words of encouragement 
               </button>
             </div>
             {error && (
@@ -97,9 +100,9 @@ const PositiveForm = () => {
           </div>
         </>
       ) : (
-        <p>
+        <p className="p__login">
           You need to be logged in to share your words of encouragement. Please{' '}
-          <Link to="/login">login</Link> or <Link to="/signup">signup.</Link>
+          <Link to="/login" className='btn'>login</Link> or <Link to="/signup" className='btn'>signup.</Link>
         </p>
       )}
     </div>

@@ -1,15 +1,31 @@
+h3 {
+  text-align: center;
+  font-family: Impact, fantasy;
+  margin-top: 5rem;
+  font-size: 3rem;
+  color:white;
+}
 .positive__container {
-  display:grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 2.5rem;
+text-align: center;
 }
 
 .form__container {
-  display:grid;
   display:block;
-  gap: 2.5rem;
+  text-align: center;
 }
+.p__login {
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  margin:auto;
+  font-family: Impact, fantasy;
+}
+.text-container {
+  width: 100%;
+}
+.text-input {
 
+}
 .form {
   background: var(--color-bg-v);
   padding: 1.3rem;
@@ -37,8 +53,7 @@
 }
 
 .btn__submit {
-  left:50%;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 1024px) {

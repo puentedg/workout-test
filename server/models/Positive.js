@@ -4,7 +4,7 @@ const dateFormat = require('../utils/dateFormat');
 const positiveSchema = new Schema({
   positiveText: {
     type: String,
-    required: true,
+    required: 'Share positivity!',
     minlength: 1,
     maxlength: 150,
     trim: true,
