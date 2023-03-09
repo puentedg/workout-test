@@ -1,4 +1,4 @@
-# Project 3: Workout Buddy 
+# Workout Buddy 
 
 ## Description 
 
